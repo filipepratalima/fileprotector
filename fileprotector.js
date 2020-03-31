@@ -17,7 +17,7 @@ const args = getArgs();
 
 // --help
 if (args.help) {
-  console.log(`usage: fileProtector.js --action=encrypt --input=file.txt --output=file.enc --password=123abc\n
+  console.log(`usage: fileprotector.js --action=encrypt --input=file.txt --output=file.enc --password=123abc\n
   arguments:
   --action=['encrypt' or 'decrypt']
   --input=[input filename]
